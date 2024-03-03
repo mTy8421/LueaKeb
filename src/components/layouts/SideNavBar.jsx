@@ -152,7 +152,7 @@ function SideNavBar(props) {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap component="div" sx={{ mx: "auto" }}>
-              Test
+              Support staff workload system
             </Typography>
           </Toolbar>
         </AppBar>
@@ -160,7 +160,10 @@ function SideNavBar(props) {
       <ThemeProvider theme={darkTheme}>
         <Box
           component="nav"
-          sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+          sx={{
+            width: { sm: drawerWidth },
+            flexShrink: { sm: 0 },
+          }}
           aria-label="mailbox folders"
         >
           {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
