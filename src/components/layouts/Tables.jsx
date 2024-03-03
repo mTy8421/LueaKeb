@@ -6,6 +6,9 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Button } from "@mui/material";
+
+import Modals from "./Modals";
+
 function createData(name, col1, col2, col3, col4) {
   return { name, col1, col2, col3, col4 };
 }
@@ -49,7 +52,7 @@ export default function Tables() {
               <TableCell align="right">{row.col1}</TableCell>
               <TableCell align="right">{row.col2}</TableCell>
               <TableCell align="right">
-                <Button variant="contained">Button</Button>
+                <Modals />
               </TableCell>
               <TableCell align="right">
                 <Button variant="contained" color="error">

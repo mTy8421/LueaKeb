@@ -6,7 +6,10 @@ import { Container } from "@mui/material";
 export default function Homes() {
   const title = (
     <div>
-      <div className="flex">
+      <div className="text-center">
+        <h1 className="text-2xl">Home</h1>
+      </div>
+      <div className="flex mt-3">
         <ChartPie />
       </div>
       <Container>
